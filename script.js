@@ -34,6 +34,7 @@ const birdDetails = document.getElementById("bird-info")
 const birdImage = document.getElementById("bird-picture")
 const popupInfo = document.getElementById("popup-info")
 const cover = document.getElementById("cover")
+const closeButton = document.getElementById("close-button")
 
 for(let i = 0; i<birds.length; i++){
     let x = document.createElement("img")
@@ -52,9 +53,13 @@ for(let i = 0; i<birds.length; i++){
 }
 
 cover.onclick = () =>{
+    hide()
+}
+function hide(){
     popupInfo.setAttribute("style","display : none;");
     cover.setAttribute("style","display : none;");
 }
 
-
-
+closeButton.onclick = () =>{
+    hide()
+}
