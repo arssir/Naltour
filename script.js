@@ -34,7 +34,7 @@ const birdDetails = document.getElementById("bird-info")
 const birdImage = document.getElementById("bird-picture")
 const popupInfo = document.getElementById("popup-info")
 const cover = document.getElementById("cover")
-const closeButton = document.getElementById("close-button")
+const closeButton = document.getElementById("close-btn")
 
 for(let i = 0; i<birds.length; i++){
     let x = document.createElement("img")
