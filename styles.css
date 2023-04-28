@@ -125,3 +125,35 @@ footer{
     -webkit-backdrop-filter: blur(5px);
 }
 
+footer{
+    margin-top: 80px;
+    background-color: rgb(22, 64, 75);
+}
+
+@media screen and (max-width:750px) {
+    html{
+        font-size: 12px;
+    }
+    .container{
+        flex-direction: column-reverse;
+    }
+    .image,.content{
+        width: 100%;
+    }
+    .container:nth-child(even){
+        flex-direction: column-reverse;
+    }
+    
+    .title-bar>*{
+        width: 90%;
+        margin: auto;
+    }
+    .title-bar>*{
+        padding-left: 8PX;
+    }
+    .title-bar{
+        padding: unset;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
