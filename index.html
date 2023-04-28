@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NULTOUR</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="styles.css">
+    
+
+</head>
+<body>
+    <header>
+
+        <div class="title-bar">
+            <h1>NALTOUR</h1>
+            <h2>"Discover the hidden beauty of Nalsarovar"</h2>
+        </div>
+    </header>
+        
+    <main>
+        
+        <!-- .container>(.content>h1+p).image>img -->
+        <div class="container">
+            <div class="content">
+                <h1>Introduction</h1>
+                <p>Nalsarovar is a well-known tourist destination located in Gujarat, India. It is famous for its bird sanctuary and wetland area that covers around 120 square kilometers. The sanctuary is home to over 250 species of birds, both resident and migratory, making it a paradise for birdwatchers and nature enthusiasts.</p>
+            </div>
+            <div class="image"><img src="/Images/boat-with-people.jpg" alt=""></div>
+        </div>
+        <div class="container">
+            <div class="content">
+                <h1>Bird Sanctuary and Wetland</h1>
+                <p>The bird sanctuary at Nalsarovar is spread across an area of around 120 square kilometers and is a wetland area that attracts a large number of migratory and resident bird species. The sanctuary is known for its abundant birdlife, and visitors can spot a variety of birds such as flamingos, pelicans, storks, egrets, and more. The wetland is an important habitat for the birds, providing food and shelter, and is an ideal location for birdwatching.</p>
+            </div>
+            <div class="image"><img src="Images/bird1.jpg" alt=""></div>
+        </div>
+        <div class="container">
+            <div class="content">
+                <h1>Location and Accessibility</h1>
+                <p>Nalsarovar is located around 64 kilometers from Ahmedabad, the nearest city, and is easily accessible by road. Visitors can hire a car or take a bus to reach Nalsarovar from Ahmedabad. The sanctuary is located in a peaceful and tranquil environment, surrounded by lush greenery and the lake.</p>
+            </div>
+            <div class="image"><img src="Images/bird-background.jpg" alt=""></div>
+        </div>
+        
+        
+        
+        <div class="container">
+            <div class="content">
+                <h1>Best Time to Visit</h1>
+                <p>The best time to visit Nalsarovar is during the winter months between November and February. The weather during this period is pleasant, and the migratory birds arrive from places as far as Siberia, making it an ideal time for birdwatching. The weather during the summer months can be hot and humid, and it is not recommended to visit during this time.</p>
+            </div>
+            <div class="image"><img src="Images/bird2.jpg" alt=""></div>
+        </div>
+        
+        <div class="container">
+            <div class="content">
+                <h1>Activities and Attractions</h1>
+                <p>Apart from birdwatching, there are various other activities that visitors can enjoy at Nalsarovar. Boating is a popular activity, and visitors can hire a boat to explore the lake and spot birds. Camping is another popular activity, and visitors can camp on the islands in the lake or on the shores. Fishing is also allowed in the lake, and visitors can enjoy a peaceful day fishing in the serene environment. Nalsarovar is also known for its stunning sunsets, and visitors can witness a beautiful sunset over the lake. Picnicking with friends and family is also a popular activity at Nalsarovar.</p>
+            </div>
+            <div class="image"><img src="Images/boat3.jpg" alt=""></div>
+        </div>
+        
+        <h1>Birds</h1>
+        <div class="scroll-birds" id="scroll-birds">
+            <button id="prev" onclick="prev()"></button>
+            <div class="outer-birds">
+                <div class="birds" id="birds">
+                    
+                </div>
+            </div>
+            <button id="next" onclick="next()"></button>
+        </div>
+    </main>
+    
+
+    <aside>
+        <div id="popup-info">
+            <div class="container">
+                <div class="content">
+                    <h1 id="bird-name"></h1>
+                    <p id="bird-info"></p>
+                </div>
+                <div class="image"><img src="/Images/bird2.jpg" alt="" id="bird-picture"></div>
+            </div>
+        </div>
+    </aside>
+    
+    <footer>
+        
+    </footer>
+
+    <div class="cover" id="cover">
+
+    </div>
+    
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
