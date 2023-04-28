@@ -37,12 +37,12 @@ const cover = document.getElementById("cover")
 
 for(let i = 0; i<birds.length; i++){
     let x = document.createElement("img")
-    x.setAttribute("src",("/Images/Birds/"+birds[i][0]+".jpg"))
+    x.setAttribute("src",("Images/Birds/"+birds[i][0]+".jpg"))
 
     x.onclick = ()=>{
         birdTitle.innerHTML = birds[i][0]
         birdDetails.innerHTML = birds[i][1]
-        birdImage.setAttribute("src",("/Images/Birds/"+birds[i][0]+".jpg"))
+        birdImage.setAttribute("src",("Images/Birds/"+birds[i][0]+".jpg"))
         popupInfo.setAttribute("style","display : flex;");
         cover.setAttribute("style","display : block;");
 
